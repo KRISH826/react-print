@@ -8,24 +8,22 @@ body {
 @media print {
   @page {
     margin: 0;
-    size: auto;
+    /* Isse browser paper ki length automatic content ke hisab se stretch karega */
+    size: 78mm auto; 
   }
   
   html, body {
     margin: 0;
     padding: 0;
-    height: auto !important;
-    min-height: 0 !important;
+    /* Height dynamic karne ke liye important settings */
+    height: fit-content !important;
+    min-height: fit-content !important;
     background-color: white;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
 
-  /* Force the container to wrap tight around the content */
-  div {
-    page-break-inside: avoid;
-  }
-
+  /* Scrollbars ko clear karne ke liye */
   ::-webkit-scrollbar {
     display: none;
   }
