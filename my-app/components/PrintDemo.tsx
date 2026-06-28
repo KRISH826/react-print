@@ -59,7 +59,7 @@ export default function SimplePrintBill() {
         style={{ width: '78mm' }}
       >
         {/* Header */}
-        <div className="text-center mb-3">
+        <div className="text-center print:pt-5 print:mt-5 mb-3">
           <h2 className="text-sm font-bold uppercase tracking-wider">{invoiceData.restaurantName}</h2>
           <p className="text-[10px] text-gray-600">{invoiceData.address}</p>
           <p className="text-[10px] text-gray-600">Ph: {invoiceData.phone}</p>
@@ -131,7 +131,7 @@ export default function SimplePrintBill() {
         {/* Footer */}
         <div className="text-center mt-3 pt-1.5 border-t border-dashed border-black text-[10px] text-gray-600">
           <p className="font-bold text-black">Thank You! Please Visit Again</p>
-          <p className="text-[9px]">Software Powered by Next.js</p>
+          <p className="text-[9px]">Powered by Dineredge POS</p>
         </div>
       </div>
 
