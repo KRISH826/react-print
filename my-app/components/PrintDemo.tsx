@@ -19,8 +19,21 @@ export default function SimplePrintBill() {
       { name: "Fish Fry (Special)", qty: 1, price: 120 },
       { name: "Virgin Mojito", qty: 2, price: 110 },
       { name: "Fried Rice", qty: 2, price: 240 },
+      { name: "Kolkata Biryani", qty: 2, price: 220 },
+      { name: "Veg Platter", qty: 1, price: 280 },
       { name: "Noodles", qty: 1, price: 260 },
-      { name: "Coke", qty: 2, price: 40 }
+      { name: "Paneer tikka", qty: 1, price: 260 },
+      { name: "Mutton Rogan Josh", qty: 1, price: 260 },
+      { name: "Chilli Chicken", qty: 2, price: 260 },
+      { name: "Dal Makhani", qty: 2, price: 260 },
+      { name: "Jeera Rice", qty: 2, price: 260 },
+      { name: "Laccha Paratha", qty: 2, price: 40 },
+      { name: "Naan", qty: 2, price: 40 },
+      { name: "Butter Naan", qty: 2, price: 40 },
+      // desert
+      { name: "Gulab Jamun", qty: 1, price: 120 },
+      { name: "Rasmalai", qty: 1, price: 140 },
+      { name: "Ice Cream", qty: 1, price: 140 }
     ],
     serviceChargeRate: 0.05,
     gstRate: 0.05
