@@ -1,8 +1,6 @@
-import PetpoojaPrintDemo from "@/components/PrintDemo";
-import Image from "next/image";
-
+import SimplePrintBill from "@/components/PrintDemo";
 export default function Home() {
   return (
-    <PetpoojaPrintDemo />
+    <SimplePrintBill />
   );
 }
